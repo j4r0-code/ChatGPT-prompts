@@ -1,0 +1,2 @@
+# Quick and simple gpt promts:
+"Provide me with some examples of acronyms that can help me memorize [information]"
