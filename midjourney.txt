@@ -1,0 +1,3 @@
+# Midjourney prompts:
+1. An intricate chart with data points, 2D, investment and finance concept [or other concept], high detail, 8K --ar 4:3 --v 5.2
+
