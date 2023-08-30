@@ -1,0 +1,2 @@
+# ChatGPT-prompts
+AI prompts
