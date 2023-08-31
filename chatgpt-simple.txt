@@ -1,2 +1,5 @@
 # Quick and simple gpt promts:
 "Provide me with some examples of acronyms that can help me memorize [information]"
+
+"Select a current technology trend (for instance, '5G Networking' or 'Quantum Computing').
+Craft a 2-month study plan utilizing platforms such as (a specific online platform like 'Udemy' or 'Coursera') to understand its basic principles."
