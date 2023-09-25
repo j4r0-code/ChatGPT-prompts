@@ -10,15 +10,18 @@ def prevent_screensaver_and_teams_inactive():
         # Simulate a harmless keypress (Shift key in this case)
         shell.SendKeys('+')
         
-        # Wait for 5 minutes before simulating another keypress
-        # This will prevent the screensaver from starting after 10 minutes
-        # and also keep Teams status as active.
+        # Small mouse movement back and forth to simulate activity in Teams
+        pyautogui.move(5, 0, duration=0.5)  # move mouse 5 pixels to the right
+        pyautogui.move(-5, 0, duration=0.5)  # move mouse back to the left
+        
+        # Wait for 5 minutes before simulating another activity
         time.sleep(300)
 
 if __name__ == "__main__":
     # Ensure the script runs in the background without a console window
     pyautogui.FAILSAFE = False
     prevent_screensaver_and_teams_inactive()
+
 
 
 # pip install pyautogui pywin32
